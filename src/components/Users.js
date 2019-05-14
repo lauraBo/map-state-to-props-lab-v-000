@@ -23,4 +23,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect()(Users);
+export default connect(mapStateToProps)(Users);
